@@ -13,4 +13,11 @@ const deleteContact = createAction('contacts/Delete');
 
 const changeFilter = createAction('contacts/Filter');
 
-export default { addContact, deleteContact, changeFilter };
+const contactsActions = {
+  addContact,
+  deleteContact,
+  changeFilter
+};
+
+export default contactsActions;
+
